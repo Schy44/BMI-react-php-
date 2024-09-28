@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(135deg, #56ab2f, #8dc26f);
+    /* Adjusted to match the green gradient background */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.15);
+    /* Translucent white with light opacity */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.login-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.form-control {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 20px);
+    /* Ensures input fields take up the full width */
+    box-sizing: border-box;
+    /* Ensures padding doesn't add to width */
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    /* Light placeholder text */
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    /* Matches the input width */
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #388E3C;
+}
+
+.alert {
+    background-color: #e57373;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.text-center a {
+    color: #ffd54f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
